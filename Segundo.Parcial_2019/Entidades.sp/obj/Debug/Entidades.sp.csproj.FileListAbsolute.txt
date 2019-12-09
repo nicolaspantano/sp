@@ -1,0 +1,7 @@
+C:\Users\Compumar\Downloads\sp-master (1)\sp-master\Segundo.Parcial_2019\Entidades.sp\bin\Debug\Entidades.sp.dll
+C:\Users\Compumar\Downloads\sp-master (1)\sp-master\Segundo.Parcial_2019\Entidades.sp\bin\Debug\Entidades.sp.pdb
+C:\Users\Compumar\Downloads\sp-master (1)\sp-master\Segundo.Parcial_2019\Entidades.sp\obj\Debug\Entidades.sp.csprojAssemblyReference.cache
+C:\Users\Compumar\Downloads\sp-master (1)\sp-master\Segundo.Parcial_2019\Entidades.sp\obj\Debug\Entidades.sp.csproj.CoreCompileInputs.cache
+C:\Users\Compumar\Downloads\sp-master (1)\sp-master\Segundo.Parcial_2019\Entidades.sp\obj\Debug\Entidades.sp.dll
+C:\Users\Compumar\Downloads\sp-master (1)\sp-master\Segundo.Parcial_2019\Entidades.sp\obj\Debug\Entidades.sp.pdb
+C:\Users\Compumar\Downloads\sp-master (1)\sp-master\Segundo.Parcial_2019\Entidades.sp\bin\Debug\Entidades.sp.dll.config
