@@ -1,0 +1,12 @@
+SqlConnection conexion = new SqlConnection(Configurar las propiedades);
+            SqlCommand comando = new SqlCommand();
+            comando.Connection = conexion;
+            comando.CommandType = System.Data.CommandType.Text;
+
+            comando.CommandText = "select * from nombre_de_la_tabla";
+            comando.CommandText = "Update nombre_tabla Set nombre_campo1 = valor_campo1, nombre_campo2 = valor_campo2,... Where condiciones_de_selección";
+            comando.CommandText = "INSERT INTO "nombre_tabla" ("columna1", "columna2", ...)VALUES("valor1", "valor2", ...); "
+            comando.CommandText = "delete from nombre_tabla where condiciones_de_seleccion";
+            */
+
+// string cmd = String.Format("INSERT INTO Satelites (nombre, duracion_orbita,duracion_rotacion) VALUES ('{0}','{1}', '{2}')", satelite.Nombre, satelite.DuraOrbita, satelite.DuraRotacion);
