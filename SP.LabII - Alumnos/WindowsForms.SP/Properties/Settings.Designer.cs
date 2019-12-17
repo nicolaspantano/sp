@@ -12,7 +12,7 @@ namespace WindowsForms.SP.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.7.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.9.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -26,8 +26,8 @@ namespace WindowsForms.SP.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAB4PC21\\SQLEXPRESS;Initial Catalog=sp_lab_II_utiles;Integrated Secur" +
-            "ity=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-3K8J45Q\\SQLEXPRESS;Initial Catalog=sp_lab_II_utiles;Integrate" +
+            "d Security=True")]
         public string Conexion {
             get {
                 return ((string)(this["Conexion"]));

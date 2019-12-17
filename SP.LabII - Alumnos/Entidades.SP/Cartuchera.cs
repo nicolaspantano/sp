@@ -70,10 +70,10 @@ namespace Entidades.SP
             if (cartuchera.Elementos.Count < cartuchera.capacidad)
             {
                 cartuchera.Elementos.Add(elemento);
-                if (cartuchera.PrecioTotal > 85)
+                /*if (cartuchera.PrecioTotal > 85)
                 {                    
                     cartuchera.EventoPrecio(cartuchera,new EventArgs());                                        
-                }
+                }*/
             }
             return cartuchera;
         }

@@ -1,0 +1,48 @@
+SQL ADAPTER
+
+Obtener de la base de datos el listado X
+
+1_  SqlConnection con = new SqlConnection(Properties.Settings.Default.Conexion);
+2_  string comando = "SELECT * FROM [nombre_base].[dbo].[nombre_tabla]";
+3_  SqlDataAdapter adap = new SqlDataAdapter(comando,con);
+4_  Adap.Fill(nombre_data_table);
+
+
+Configurar InsertCommand del SqlAdapter
+
+1_  string comando = "INSERT INTO [nombre_base].[dbo].[nombre_tabla] VALUES (@p1,@p2,@p3)";
+2_  adap.InsertCommand = new SqlCommand(comando, con);
+3_  adap.InsertCommand.Parameters.Add("@p1", SqlDbType.Tipo, caracteres,"nombre_columna");
+
+
+Agregar elementos al DataTable
+
+1_  DataRow fila = dt.NewRow();
+2_  fila[1] = lapiz.marca;
+    fila[2] = lapiz.precio;
+    fila[3] = "lapiz";
+3_  dt.Rows.Add(fila);
+
+
+Configurar DeleteCommand del SqlAdapter
+
+1_  Adap.DeleteCommand = new SqlCommand("DELETE FROM [nombre_base].[dbo].[nombre_tabla] where id = @p1",con)
+2_  Adap.DeleteCommand.Parameters.Add("@p1",SqlDbType.Int,caracteres,"id");
+
+Borrar el primer registro del dataTable
+
+1_  dt.Rows[0].Delete();
+
+Configurar el updateCommand del SqlDataAdapter
+
+1_  string comando = "UPDATE [nombre_base].[dbo].[nombre_tabla] SET marca=@p1,precio=@p2,tipo=@p3";
+2_  adap.UpdateCommand = new SqlCommand(comando,con);
+3_  Adap.UpdateCommand.Parameters.Add("@p1",SqlDbType.Tipo,caracteres,"nombre_columna");
+
+Modificar el ultimo registro del dataTable
+
+1_  Dt.Rows[Dt.Rows.Count-1]["nombre_columna"]="nuevo_valor";
+
+Sincronizar los cambios con la base de datos
+
+1_  Adap.Update(dt);
